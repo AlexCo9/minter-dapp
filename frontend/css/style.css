@@ -325,7 +325,26 @@ section {
 
 .splide__slide {
   border: var(--accent-color) solid;
-  border-width: 2px 2px;
+  border-width: 2px 4px;
+}
+
+.splide__slide img {
+  width: 100%;
+}
+
+
+/* SLIDDER #Two */
+
+.splide {
+  position: absolute;
+  top: 90px;
+  right: 5rem;
+  z-index: -1;
+}
+
+.splide__slide {
+  border: var(--accent-color) solid;
+  border-width: 2px 4px;
 }
 
 .splide__slide img {
@@ -339,6 +358,8 @@ section {
   left: 50%;
   transform: translate(-50%, -50%) scale(3);
 }
+
+
 
 /* MEDIA QUERIES */
 
