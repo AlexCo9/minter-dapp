@@ -1,9 +1,9 @@
 const contractAddress = "0x2E947dF39923897D572634a5A0d73fb023E7c0E0"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to the katalysts NFT Project!!";
+const welcome_h1 = "Welcome to The Katalysts NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'the katalysts NFT Project is a decentralized, open-source project TBD marketing para';
+const welcome_p = 'The Katalysts NFT Project is a decentralized, open-source project TBD marketing para';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
