@@ -332,25 +332,6 @@ section {
   width: 100%;
 }
 
-
-/* SLIDDER #Two */
-
-.splide {
-  position: absolute;
-  top: 90px;
-  right: 5rem;
-  z-index: -1;
-}
-
-.splide__slide {
-  border: var(--accent-color) solid;
-  border-width: 2px 4px;
-}
-
-.splide__slide img {
-  width: 100%;
-}
-
 /* SPINNER */
 .dot-spin {
   position: absolute;
