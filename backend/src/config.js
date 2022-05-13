@@ -7,7 +7,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "thekatalysts.xyz";
+const namePrefix = "thekatalysts";
 const description = "We plant trees by minting NFTs";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
@@ -28,7 +28,7 @@ const layerConfigurations = [
       { name: "StaffFirstMint" },
     ]
     },{
-    growEditionSizeTo: 20,
+    growEditionSizeTo: 110,
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Fur" },
@@ -66,14 +66,14 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'thekatalysts.xyz';
+const CONTRACT_NAME = 'thekatalysts';
 const CONTRACT_SYMBOL = 'TK';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x4FaF9432F7Dbfe93b67057Bb6aAdDEe6684DEB08';
 const TREASURY_ADDRESS = '0x4FaF9432F7Dbfe93b67057Bb6aAdDEe6684DEB08';
 const MAX_SUPPLY = 10000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const MINT_PRICE = 0.002; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PUBLIC_MINT_START_DATE = "2022-06-05T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
