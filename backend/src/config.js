@@ -14,7 +14,7 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {// This is the 1st Mint of 100 NFTs.Unique layers for the mint Fur-ReFi, Animal-Lemur and Staff - Amber
-    growEditionSizeTo: 10,
+    growEditionSizeTo: 5,
     layersOrder: [
       { name: "Backgrounds" },
       { name: "FurFirstMint" },
@@ -28,7 +28,7 @@ const layerConfigurations = [
       { name: "StaffFirstMint" },
     ]
     },{
-    growEditionSizeTo: 110,
+    growEditionSizeTo: 20,
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Fur" },
