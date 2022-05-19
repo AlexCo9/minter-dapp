@@ -1,0 +1,53 @@
+{
+  "name": "thekatalysts #2",
+  "description": "We scale climate solutions through Regenerative Finance (ReFi)",
+  "image": "ipfs://NewUriToReplace/2.png",
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Desert"
+    },
+    {
+      "trait_type": "Fur",
+      "value": "Light"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Ears",
+      "value": "Pointy Ears Spike"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Nose Ring"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Dreadlocks Green"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Toga"
+    },
+    {
+      "trait_type": "Necklace",
+      "value": "Small Shells Leather"
+    },
+    {
+      "trait_type": "Animal Friends",
+      "value": "Toucan"
+    },
+    {
+      "trait_type": "Staff",
+      "value": "Green Stone"
+    }
+  ],
+  "dna": "3236ea4410440c8e1c7fbc3a5535fa3394eea227",
+  "edition": 2,
+  "external_url": "https://thekatalysts.xyz",
+  "Carbon_Offsets_url": "https://thekatalysts.xyz",
+  "date": 1652927203714,
+  "compiler": "HashLips Art Engine - codeSTACKr Modified"
+}

@@ -7,62 +7,51 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "thekatalysts";
-const description = "We plant trees by minting NFTs";
+const namePrefix = "thekatalysts"; //consider TheKatalysts
+const description = "We scale climate solutions through Regenerative Finance (ReFi)"; //to be replaced
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {// This is the 1st Mint of 100 NFTs.Unique layers for the mint Fur-ReFi, Animal-Lemur and Staff - Amber
-    growEditionSizeTo: 5,
-    layersOrder: [
-      { name: "Backgrounds" },
-      { name: "FurFirstMint" },
-      { name: "Eyes" },
-      { name: "Ears" },
-      { name: "Accessories" },
-      { name: "Hair" },
-      { name: "Clothes" },
-      { name: "Necklace" },
-      { name: "AnimalFirstMint" },
-      { name: "StaffFirstMint" },
-    ]
-    },{
-    growEditionSizeTo: 20,
-    layersOrder: [
-      { name: "Backgrounds" },
-      { name: "Fur" },
-      { name: "Eyes" },
-      { name: "Ears" },
-      { name: "Accessories" },
-      { name: "Hair" },
-      { name: "Clothes" },
-      { name: "Necklace" },
-      { name: "Animal" },
-      { name: "Staff" },
-    ],
-  },
+     growEditionSizeTo: 200,
+     layersOrder: [
+       { name: "Backgrounds" },
+       { name: "Fur"},
+       { name: "Eyes", options: { bypassDNA: true} },
+       { name: "Ears"},
+       { name: "Accessories", options: { bypassDNA: true} },
+       { name: "Hair" },
+       { name: "Clothes" },
+       { name: "Necklace", options: { bypassDNA: true} },
+       { name: "Animal Friends"},
+       { name: "Staff"}, 
+     ]
+     },
+
+      
 ];
 
-const shuffleLayerConfigurations = false;
+const shuffleLayerConfigurations = true;
 
 const debugLogs = false;
 
 const format = {
-  width: 3000,
-  height: 3000,
+  width: 100,
+  height: 100,
   smoothing: false,
 };
 
 const extraMetadata = {
   external_url: "https://thekatalysts.xyz", // Replace with your website or remove this line if you do not have one.
+  Carbon_Offsets_url: "TBD",   // Link of sKlima stakes 1sKlima=1NFT
 };
 
 // NFTPort Info
 
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
-const LIMIT = 2; // Your API key rate limit
+const LIMIT = 10; // Your API key rate limit !!!!!!!!!!!was 2!!!!!!!!!!!
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
@@ -125,7 +114,7 @@ const gif = {
   export: false,
   repeat: 0,
   quality: 100,
-  delay: 500,
+  delay: 200,
 };
 
 const text = {
@@ -142,7 +131,7 @@ const text = {
 };
 
 const pixelFormat = {
-  ratio: 2 / 128,
+  ratio: 32 / 128,
 };
 
 const background = {
