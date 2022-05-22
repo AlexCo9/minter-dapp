@@ -17,7 +17,7 @@ const p_public_mint = "No whitelist needed. Public minting is now open! 🎉 55-
 const button_presale_coming_soon = "Get on the Whitelist";
 const button_presale_mint_whitelisted = "Mint Your Special NFT";
 const button_presale_mint_not_whitelisted = "Get on the Whitelist";
-const button_presale_already_minted = "Join The Katalysts Community";
+const button_presale_already_minted = "Join the Katalyst Collective";
 const button_public_mint = "Mint Your NFT";
 const mint_failed = "Minting failed. 😢 Please try again.";
 
