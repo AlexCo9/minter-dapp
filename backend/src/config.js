@@ -8,13 +8,13 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "thekatalysts"; //consider TheKatalysts
-const description = "We scale climate solutions through Regenerative Finance (ReFi)"; //to be replaced
+const description = "We scale climate solutions through Regenerative Finance (ReFi)"; //to be replaced by a paragraph or two of description that can be updated later post minting
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
-  {// This is the 1st Mint of 100 NFTs.Unique layers for the mint Fur-ReFi, Animal-Lemur and Staff - Amber
-     growEditionSizeTo: 200,
+  {
+     growEditionSizeTo: 1000,
      layersOrder: [
        { name: "Backgrounds" },
        { name: "Fur"},
@@ -32,19 +32,19 @@ const layerConfigurations = [
       
 ];
 
-const shuffleLayerConfigurations = true;
+const shuffleLayerConfigurations = false;
 
 const debugLogs = false;
 
 const format = {
-  width: 100,
-  height: 100,
+  width: 3000,
+  height: 3000,
   smoothing: false,
 };
 
 const extraMetadata = {
   external_url: "https://thekatalysts.xyz", // Replace with your website or remove this line if you do not have one.
-  Carbon_Offsets_url: "TBD",   // Link of sKlima stakes 1sKlima=1NFT
+  thekatalysts_wallet_address: "0x4FaF9432F7Dbfe93b67057Bb6aAdDEe6684DEB08",   // TheKatalysts minting wallet address
 };
 
 // NFTPort Info
@@ -65,7 +65,7 @@ const MINT_PRICE = 0.002; // Minting price per NFT. Rinkeby = ETH, Polygon = MAT
 const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-05-19T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-06-19T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-05-05T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
@@ -153,11 +153,11 @@ const preview = {
 };
 
 const preview_gif = {
-  numberOfImages: 5,
+  numberOfImages: 100,
   order: "ASC", // ASC, DESC, MIXED
   repeat: 0,
   quality: 100,
-  delay: 500,
+  delay: 3000,
   imageName: "preview.gif",
 };
 
